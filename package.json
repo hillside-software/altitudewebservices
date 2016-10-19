@@ -1,18 +1,18 @@
 {
-  "name": "listing-connect",
-  "description": "ListingConnect.com - For Real Estate",
+  "name": "altitudewebservices",
+  "description": "AltitudeWebServices.com - Custom Web Design and Development",
   "version": "0.0.321",
   "author": "Josh Levy",
   "scripts": {
     "start": "nodemon index.js",
-    "docker-init-server": "docker-machine create --driver generic --generic-ip-address listingconnect.com listingconnect.com",
-    "docker-target-server": "eval $(docker-machine env listingconnect.com)",
+    "docker-init-server": "docker-machine create --driver generic --generic-ip-address altitudewebservices.com altitudewebservices.com",
+    "docker-target-server": "eval $(docker-machine env altitudewebservices.com)",
     "docker-build-server": "docker-compose -p lcserver build",
     "docker-run-server": "docker-compose -p lcserver up",
     "docker-deploy-server": "docker-compose -p lcserver up -d"
   },
   "dependencies": {
-    "angular": "^1.4.4",
+    "angular": "1.5.8",
     "babel": "^5.8.21",
     "babelify": "^6.2.0",
     "bluebird": "^2.9.34",
