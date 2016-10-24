@@ -4,8 +4,8 @@ jQuery(document).ready(function($){
 		var device = checkWindowWidth(),
 			tableFinalWidth = ( device == 'mobile') ? $(window).width()*0.9 : 210,
 			tableFinalHeight = ( device == 'mobile' ) ? 93 : 255;
-			formMaxWidth = 900,
-			formMaxHeight = 650,
+			formMaxWidth = 1080,
+			formMaxHeight = 720,
 			animating =  false; 
 
 		//set animation duration/delay
