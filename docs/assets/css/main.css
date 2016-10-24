@@ -367,6 +367,30 @@ hr {
   animation-delay: 1.5s !important;
 }
 
+.animation-delay-20 {
+  -moz-animation-delay: 2.0s !important;
+  -webkit-animation-delay: 2.0s !important;
+  animation-delay: 2.0s !important;
+}
+
+.animation-delay-30 {
+  -moz-animation-delay: 3.0s !important;
+  -webkit-animation-delay: 3.0s !important;
+  animation-delay: 3.0s !important;
+}
+
+.animation-delay-35 {
+  -moz-animation-delay: 3.5s !important;
+  -webkit-animation-delay: 3.5s !important;
+  animation-delay: 3.5s !important;
+}
+
+.animation-delay-40 {
+  -moz-animation-delay: 4.0s !important;
+  -webkit-animation-delay: 4.0s !important;
+  animation-delay: 4.0s !important;
+}
+
 /* footer */
 footer {
   background-color: #49494b;
@@ -4161,12 +4185,14 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 /* Types: slider with animated object, default slider
 /* ----------------------------------------------------- */
 .hero-unit-animated {
-  padding: 100px 0;
+  /*padding: 100px 0;*/
+  padding-bottom: 150px;
+  padding-top: 100px;
   color: #fff;
   background-image: url('../img/hero-unit-bg.png?1420789489');
   background-repeat: no-repeat;
-  background-position: center -75px;
-  margin-top: 60px;
+  background-position: center;
+  /*margin-top: 50px;*/
 }
 .hero-unit-animated .hero-heading {
   font-family: "Roboto Condensed", sans-serif;
@@ -4182,7 +4208,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 .hero-unit-animated .hero-button {
   padding: 10px 40px;
-  margin-top: 24px;
+  margin-top: 12px;
   background-color: #FFB81C;
   color: #0C2340;
   font-weight: 700;
