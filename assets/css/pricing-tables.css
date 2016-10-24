@@ -14,12 +14,12 @@ html {
 body {
   font-size: 1.6rem;
   font-family: "Open Sans", sans-serif;
-  color: #0f222b;
-  background-color: #0f222b;
+  color: #0C2340;
+  background-color: #fff;
 }
 
 a {
-  color: #95ac5f;
+  color: #FFB81C;
   text-decoration: none;
 }
 
@@ -39,7 +39,7 @@ Header - not needed in production
   text-align: center;
 }
 .cd-main-header h1 {
-  color: #ffffff;
+  color: #0C2340;
   font-weight: 300;
   font-size: 2rem;
 }
@@ -82,7 +82,7 @@ Pricing tables
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #0f222b;
+  background-color: #0C2340;
 }
 @media only screen and (min-width: 768px) {
   .cd-pricing {
@@ -102,15 +102,15 @@ Pricing tables
   .cd-pricing > li {
     width: 28.0%;
     float: left;
-    margin-right: 8%;
+    margin-right: 5%;
   }
 }
 
 .cd-pricing-header {
   padding: 1.3em 1em;
-  background-color: #95ac5f;
+  background-color: #0C2340;
   border-radius: .25em .25em 0 0;
-  box-shadow: inset 0 1px 0 #c1cfa2;
+  /*box-shadow: inset 0 1px 0 #c1cfa2;*/
   color: #ffffff;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -135,7 +135,7 @@ Pricing tables
   float: left;
 }
 .cd-pricing-header span:nth-of-type(2) {
-  color: #c1cfa2;
+  color: #FFB81C;
 }
 .cd-pricing-header span:nth-of-type(2)::before {
   content: '/';
@@ -158,7 +158,7 @@ Pricing tables
 }
 .cd-pricing-features em {
   position: relative;
-  padding-left: 28px;
+  /*padding-left: 28px;*/
 }
 .cd-pricing-features em::before {
   /* this is the icon (check or cross) next to the plan feature */
@@ -264,7 +264,7 @@ Form
   left: 0;
   height: calc(100% + 5px);
   width: 100%;
-  background-color: #95ac5f;
+  background-color: #0072CE;
   will-change: transform;
   -webkit-transform: scaleY(0);
   -moz-transform: scaleY(0);
@@ -301,6 +301,8 @@ Form
 }
 .cd-form .cd-more-info h3 {
   line-height: 2;
+  font-size: 14px;
+  padding-top: 30px;
 }
 .cd-form .cd-more-info p {
   font-size: 1.3rem;
@@ -370,7 +372,7 @@ Form
   color: #b2b2b2;
 }
 .cd-form input[type="radio"] + label {
-  color: #0f222b;
+  color: #0C2340;
 }
 .cd-form input[type="text"],
 .cd-form input[type="email"],
@@ -391,7 +393,7 @@ Form
 .cd-form input[type="password"]:focus,
 .cd-form select:focus {
   outline: none;
-  border-color: #95ac5f;
+  border-color: #FFB81C;
 }
 .cd-form input[type="text"],
 .cd-form input[type="email"],
@@ -571,6 +573,10 @@ Form
   .cd-form.is-visible .cd-more-info {
     opacity: 1;
   }
+  .cd-form.is-visible .cd-pricing-features > ul {
+    color: #fff;
+    padding-top: 20px;
+  }
 }
 @media only screen and (min-width: 1024px) {
   .cd-form .cd-credit-card p:nth-of-type(2) {
@@ -602,8 +608,8 @@ Buttons
 }
 
 .cd-pricing-footer a {
-  border: 1px solid rgba(223, 79, 113, 0.4);
-  color: #df4f71;
+  border: 2px solid #0C2340;
+  color: #0C2340;
 }
 
 .cd-form input[type="submit"] {
@@ -612,7 +618,7 @@ Buttons
   -ms-appearance: none;
   -o-appearance: none;
   appearance: none;
-  background-color: #df4f71;
+  background-color: #0C2340;
   color: #ffffff;
   border: none;
   cursor: pointer;
@@ -631,7 +637,7 @@ Shadow layer
   width: 100%;
   top: 0;
   left: 0;
-  background: rgba(15, 34, 43, 0.8);
+  background: rgba(12, 35, 64, 0.6);
   visibility: hidden;
   opacity: 0;
   -webkit-transition: opacity 0.6s 0.2s, visibility 0s 0.8s;
