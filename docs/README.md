@@ -1,1 +1,0 @@
-# Altitude Web Services ReadMe
