@@ -59,7 +59,7 @@ Pricing tables
 
 -------------------------------- */
 .cd-pricing {
-  width: 90%;
+  width: 100%;
   max-width: 280px;
   margin: 0 auto;
   text-align: center;
@@ -70,6 +70,8 @@ Pricing tables
   background-color: #ffffff;
   border-radius: .3em .3em .25em .25em;
   box-shadow: 0 2px 8px rgba(2, 4, 5, 0.5);
+  list-style-type: none;
+  margin-bottom: 30px;
 }
 .cd-pricing > li.empty-box {
   box-shadow: none;
@@ -92,7 +94,7 @@ Pricing tables
     width: 32%;
     float: left;
     margin-right: 2%;
-    margin-bottom: 0;
+    /*margin-bottom: 0;*/
   }
   .cd-pricing > li:last-of-type {
     margin-right: 0;
@@ -100,9 +102,9 @@ Pricing tables
 }
 @media only screen and (min-width: 1024px) {
   .cd-pricing > li {
-    width: 28.0%;
+    width: 32%;
     float: left;
-    margin-right: 5%;
+    margin-right: 2%;
   }
 }
 
@@ -115,8 +117,15 @@ Pricing tables
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.cd-pricing-header i {
+  display: block;
+  font-size: 48px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
 .cd-pricing-header h2, .cd-pricing-header .cd-price {
   line-height: 1.2;
+  color: #fff;
 }
 .cd-pricing-header h2 {
   font-size: 2rem;
@@ -124,7 +133,8 @@ Pricing tables
 }
 .cd-pricing-header .cd-price {
   display: inline-block;
-  font-weight: bold;
+  font-size: 24px;
+  /*font-weight: bold;*/
 }
 .cd-pricing-header .cd-price::after {
   clear: both;
@@ -149,9 +159,13 @@ Pricing tables
 .cd-pricing-features {
   padding: 2.8em 1em 2.5em;
 }
+.cd-pricing-features ul {
+  padding-left: 0px;
+}
 .cd-pricing-features li {
   line-height: 1.5;
   margin-bottom: .4em;
+  list-style-type: none;
 }
 .cd-pricing-features li:last-of-type {
   margin-bottom: 0;
@@ -182,6 +196,7 @@ Pricing tables
 
 .cd-pricing-footer {
   padding-bottom: 1.7em;
+  background-color: #fff;
 }
 .cd-pricing-footer a {
   -webkit-transition: -webkit-transform 0.3s;
@@ -373,7 +388,7 @@ Form
   font-size: 2.3rem;
   line-height: 1.2;
   padding-bottom: 0.3em;
-  margin-bottom: 7px;
+  margin-bottom: 0px;
   border-bottom: 1px solid #e5e5e5;
 }
 .cd-form input[type="radio"],
@@ -466,6 +481,7 @@ Form
   user-select: none;
   margin: 0 26px 16px 0;
   float: left;
+  width: 30%;
 }
 .cd-form input[type=radio],
 .cd-form input[type=checkbox] {
@@ -595,7 +611,7 @@ Form
   top: 0;
   height: 40px;
   width: 40px;
-  background: url(../img/cd-icon-close.svg) no-repeat center center;
+  background: url("../img/cd-icon-close.svg") no-repeat center center;
   -webkit-transform: scale(0);
   -moz-transform: scale(0);
   -ms-transform: scale(0);
@@ -753,8 +769,17 @@ Buttons
 }
 
 .cd-pricing-footer a {
+  border: 2px solid #0072CE;
+  background-color: #0072CE;
+  color: #fff;
+}
+
+.cd-pricing-footer a:hover,
+.cd-pricing-footer a:focus {
   border: 2px solid #0C2340;
-  color: #0C2340;
+  background-color: #0C2340;
+  color: #fff;
+  text-decoration: none;
 }
 
 .cd-form input[type="submit"] {
@@ -763,7 +788,7 @@ Buttons
   -ms-appearance: none;
   -o-appearance: none;
   appearance: none;
-  background-color: #0C2340;
+  background-color: #0072CE;
   color: #ffffff;
   border: none;
   cursor: pointer;
