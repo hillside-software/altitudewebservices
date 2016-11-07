@@ -129,11 +129,10 @@ hr {
 }
 .section-heading-1:after {
   display: block;
-  content: '_____________';
+  content: '____________';
   color: #406da4;
   font-weight: 500;
 }
-
 .section-heading-2 {
   margin-bottom: 20px;
   font-size: 22px;
@@ -142,7 +141,31 @@ hr {
 }
 .section-heading-2:after {
   display: block;
-  content: '__________________';
+  content: '_________________';
+  color: #406da4;
+  font-weight: 500;
+}
+.section-heading-3 {
+  margin-bottom: 20px;
+  font-size: 22px;
+  color: #222;
+  font-weight: 600;
+}
+.section-heading-3:after {
+  display: block;
+  content: '___________';
+  color: #406da4;
+  font-weight: 500;
+}
+.section-heading-4 {
+  margin-bottom: 20px;
+  font-size: 22px;
+  color: #222;
+  font-weight: 600;
+}
+.section-heading-4:after {
+  display: block;
+  content: '____________________________';
   color: #406da4;
   font-weight: 500;
 }
