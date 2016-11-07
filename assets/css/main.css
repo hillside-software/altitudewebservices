@@ -6811,6 +6811,7 @@ ul.sidebar-nav ul.submenu li:first-child a {
 }
 .panel-group-faq.top-faq .panel-title {
   font-size: 18px;
+  font-weight: 700;
 }
 .panel-group-faq.top-faq .panel-body {
   padding-left: 40px;
@@ -7178,6 +7179,7 @@ ul.nav-categories > li > a:hover {
 .team-member.media > .pull-left {
   margin-right: 30px;
   padding-right: 0;
+  max-width: 100px;
 }
 .team-member .team-name {
   display: inline-block;
@@ -7188,7 +7190,10 @@ ul.nav-categories > li > a:hover {
   padding: 0 5px;
   line-height: 1.6;
   color: #fff;
-  background-color: #406da4;
+  background-color: #0C2340;
+}
+.team-member-img {
+  border-radius: none;
 }
 .team-member strong {
   display: block;
