@@ -4342,6 +4342,14 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   opacity: 1;
 }
 
+.fa-li.fa-phone {
+  margin-top: 4px;
+}
+
+.fa-li.fa-envelope-o {
+  margin-top: 2px;
+}
+
 /* hero unit slider */
 .hero-unit-slider {
   /* hero unit with slick carousel */
@@ -7208,6 +7216,7 @@ ul.nav-categories > li > a:hover {
 }
 .contact-info > li {
   margin-bottom: 8px;
+  font-weight: 700;
 }
 
 .sidebar-map > div {
