@@ -78,6 +78,10 @@ hr {
   margin-top: 40px;
 }
 
+.mt-12pct {
+  margin-top: 12%;
+}
+
 /* wrapper */
 .wrapper {
   background: #fff;
