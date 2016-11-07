@@ -59,7 +59,7 @@ button:hover {
 }
 
 hr {
-  border-color: #eaeaea;
+  border-top: 1px solid #0072CE;
 }
 
 .pt-110 {
@@ -114,7 +114,7 @@ hr {
 .section-heading:after {
   display: block;
   content: '......';
-  color: #406da4;
+  color: #0C2340;
   font-weight: 300;
 }
 .section-heading.panel-title:after {
@@ -130,7 +130,7 @@ hr {
 .section-heading-1:after {
   display: block;
   content: '____________';
-  color: #406da4;
+  color: #0C2340;
   font-weight: 500;
 }
 .section-heading-2 {
@@ -142,7 +142,7 @@ hr {
 .section-heading-2:after {
   display: block;
   content: '_________________';
-  color: #406da4;
+  color: #0C2340;
   font-weight: 500;
 }
 .section-heading-3 {
@@ -154,7 +154,7 @@ hr {
 .section-heading-3:after {
   display: block;
   content: '___________';
-  color: #406da4;
+  color: #0C2340;
   font-weight: 500;
 }
 .section-heading-4 {
@@ -166,7 +166,7 @@ hr {
 .section-heading-4:after {
   display: block;
   content: '____________________________';
-  color: #406da4;
+  color: #0C2340;
   font-weight: 500;
 }
 
@@ -178,7 +178,7 @@ hr {
 .section-heading-pricing:after {
   display: block;
   content: '__________';
-  color: #406da4;
+  color: #0C2340;
   font-weight: 500;
 }
 .section-heading-pricing.panel-title:after {
@@ -3794,13 +3794,17 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   color: #0C2340;
   font-size: 16px;
 }
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:active {
   color: #fff;
   background-color: #0072CE;
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
+}
+.navbar-default .navbar-nav > li > a.active {
+  color: #fff;
+  background-color: #0072CE;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
@@ -6167,6 +6171,11 @@ ul.sidebar-nav ul.submenu li:first-child a {
     display: none;
   }
 }
+
+.media-body p {
+  padding-right: 40px;
+}
+
 /* ----------------------------------------------------- */
 /* PORTFOLIO 
 /* Portfolio carousel, portfolio list, single portfolio
@@ -6728,7 +6737,7 @@ ul.sidebar-nav ul.submenu li:first-child a {
 }
 
 .text-accent-color {
-  color: #406da4;
+  color: #0C2340;
 }
 
 .dropcap {
@@ -6740,7 +6749,7 @@ ul.sidebar-nav ul.submenu li:first-child a {
   font-weight: 400;
   line-height: 21px;
   text-align: center;
-  background-color: #406da4;
+  background-color: #0C2340;
   color: #FFF;
 }
 .dropcap.dropcap-big {
@@ -6830,7 +6839,7 @@ ul.sidebar-nav ul.submenu li:first-child a {
   color: #fff;
   line-height: 1.6;
   text-align: center;
-  background-color: #406da4;
+  background-color: #0072CE;
 }
 .panel-group-faq.top-faq .panel-title {
   font-size: 18px;
@@ -7197,7 +7206,12 @@ ul.nav-categories > li > a:hover {
 /*	Page: About Us
 /*------------------------------------------------*/
 .team-member {
-  margin-bottom: 60px;
+  margin-top: 30px !important;
+  margin-bottom: 30px;
+}
+.team-member.last-row {
+  margin-top: 30px !important;
+  margin-bottom: -30px;
 }
 .team-member.media > .pull-left {
   margin-right: 30px;
@@ -7210,7 +7224,7 @@ ul.nav-categories > li > a:hover {
   *vertical-align: auto;
   *zoom: 1;
   *display: inline;
-  padding: 0 5px;
+  padding: 0 10px;
   line-height: 1.6;
   color: #fff;
   background-color: #0C2340;
@@ -7220,7 +7234,7 @@ ul.nav-categories > li > a:hover {
 }
 .team-member strong {
   display: block;
-  font-size: 0.9em;
+  font-size: 14px;
 }
 .team-member hr {
   width: 50px;
