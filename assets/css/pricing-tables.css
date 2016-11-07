@@ -349,7 +349,11 @@ Form
 }
 .cd-form fieldset {
   opacity: 0;
-  margin: 1.5em 2em;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
+  /*margin: 1.5em 2em;*/
   /* Force Hardware Acceleration in WebKit */
   -webkit-transform: translateZ(0);
   -moz-transform: translateZ(0);
@@ -427,7 +431,7 @@ Form
   box-shadow: 0 0 5px rgba(44, 151, 222, 0.2);
 }
 .cd-form textarea {
-  min-height: 200px;
+  min-height: 120px;
   resize: vertical;
   overflow: auto;
 }
@@ -465,12 +469,14 @@ Form
 }
 .cd-form .cd-form-list {
   margin-top: 12px;
+  margin-bottom: 0px;
 }
 .cd-form .cd-form-list::after {
   clear: both;
   content: "";
   display: table;
 }
+
 .cd-form .cd-form-list li {
   /* wrapper for radio and checkbox input types */
   display: inline-block;
@@ -481,7 +487,7 @@ Form
   user-select: none;
   margin: 0 26px 16px 0;
   float: left;
-  width: 30%;
+  width: 28%;
 }
 .cd-form input[type=radio],
 .cd-form input[type=checkbox] {

@@ -66,6 +66,10 @@ hr {
   padding-top: 110px;
 }
 
+.pt-75 {
+  padding-top: 75px;
+}
+
 /* wrapper */
 .wrapper {
   background: #fff;
@@ -6420,6 +6424,10 @@ ul.sidebar-nav ul.submenu li:first-child a {
   margin-top: 50px;
 }
 
+.featured-image img {
+  max-width: 500px;
+}
+
 /* ----------------------------------------------------- */
 /* BLOG 
 /* Blog list, blog single item
@@ -6441,7 +6449,7 @@ ul.sidebar-nav ul.submenu li:first-child a {
   font-size: 22px;
 }
 .blog .meta-line {
-  color: #adadad;
+  color: #666666;
 }
 .blog .meta-line span {
   margin-right: 15px;
