@@ -4350,6 +4350,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   margin-top: 2px;
 }
 
+.about-text {
+  font-size: 16px;
+}
+
 /* hero unit slider */
 .hero-unit-slider {
   /* hero unit with slick carousel */
@@ -6773,12 +6777,12 @@ ul.sidebar-nav ul.submenu li:first-child a {
   color: #FFF;
 }
 .dropcap.dropcap-big {
-  min-width: 50px;
+  min-width: 35px;
   padding: 8px 0;
   margin: 5px 10px 0 0;
-  font-size: 36px;
+  font-size: 24px;
   font-weight: 400;
-  line-height: 36px;
+  line-height: 18px;
 }
 
 .list-iconed i {
