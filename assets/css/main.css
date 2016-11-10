@@ -6826,6 +6826,31 @@ ul.sidebar-nav ul.submenu li:first-child a {
 }
 
 /*------------------------------------------------*/
+/*	Page: Contact
+/*------------------------------------------------*/
+.q {
+	padding: 10px;
+	margin-bottom: 1px;
+	margin-left: 1px;
+	float: left;
+	display: block;
+  width: 47%;
+}
+
+#q5 {
+  width: 100%;
+}
+
+#Result_TextArea-6 {
+  width: 100%;
+}
+
+.buttons_reverse {
+  text-align: left;
+  margin-left: 5px;
+}
+
+/*------------------------------------------------*/
 /*	Page: FAQ
 /*------------------------------------------------*/
 .panel-group-faq {
