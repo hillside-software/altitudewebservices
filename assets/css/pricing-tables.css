@@ -236,6 +236,7 @@ Form
   transform: translateZ(0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+  height: 700px !important;
 }
 .cd-form::before {
   /* never visible - this is used in jQuery to check the current MQ */
