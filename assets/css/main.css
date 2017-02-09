@@ -7379,3 +7379,7 @@ ul.nav-categories > li > a:hover {
     width: 100%;
   }
 }
+
+iframe {
+  height: 650px !important;
+}
