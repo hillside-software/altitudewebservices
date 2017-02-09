@@ -725,7 +725,7 @@ Form
   .cd-form.is-visible .cd-pricing-features {
     padding-top: 0;
     opacity: 1;
-    visibility: visible;
+    visibility: hidden;
     -webkit-transition: padding 0.3s;
     -moz-transition: padding 0.3s;
     transition: padding 0.3s;
