@@ -6847,6 +6847,11 @@ ul.sidebar-nav ul.submenu li:first-child a {
   padding-bottom: 0px !important;
 }
 
+#q5.q.required {
+  padding-top: 1px !important;
+  padding-bottom: 1px !important;
+}
+
 #Result_TextArea-6 {
   width: 100%;
 }
