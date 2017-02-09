@@ -1,6 +1,6 @@
 jQuery(document).ready(function($){
 	//set animation timing
-	var animationDelay = 1200;
+	var animationDelay = 1750;
 	
 	initHeadline();
 
