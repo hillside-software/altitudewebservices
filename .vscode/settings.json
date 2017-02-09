@@ -12,5 +12,6 @@
       "_public": true,
       "**/node_modules": true,
       "**/bower_components": true
-    }
-}
+    },
+    "vsicons.presets.angular": false
+  }
